@@ -1,0 +1,17 @@
+.env 
+
+config.json
+
+__pycache__/
+*.log
+
+venv/
+.venv/
+
+chromedriver_win64/
+chromedriver.exe
+
+*.xlsx
+
+.DS_Store
+Thumbs.db
