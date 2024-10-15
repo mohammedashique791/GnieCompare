@@ -1,12 +1,14 @@
 .env 
 
-config.json
+ #doesnt include any sensitive content as of now(config.json).
 
 __pycache__/
 *.log
 
 venv/
 .venv/
+
+Log/
 
 chromedriver_win64/
 chromedriver.exe

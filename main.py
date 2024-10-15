@@ -251,4 +251,4 @@ def download_excel():
         return "Excel file not found.", 404
 
 if __name__ == "__main__":
-    socketio.run(app, debug=True, port = os.getenv('PORT'))
+    socketio.run(app, host="0.0.0.0", debug=True, port = os.getenv('PORT'))
